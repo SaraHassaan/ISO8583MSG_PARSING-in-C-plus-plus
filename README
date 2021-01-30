@@ -1,0 +1,18 @@
+Here i assume the data that will be sent by the transmitter is
+MTI : its type BCD 
+BITMAP : its type HEX
+Data fields:
+ANSI TYPE data element is HEX
+other than that is BCD
+
+example:
+iso8583 msg = "080020200000008000000000000000013239313130303031"
+after parsing
+MTI = 800
+TID = 29110001
+STAN = 1
+PRIVATE USE = TEST MESSG
+NETWORK MANAGEMENT INFORMATION CODE = 301
+
+FOR more examples about ISO8583 in the link below
+https://www.codeproject.com/Articles/100084/Introduction-to-ISO
